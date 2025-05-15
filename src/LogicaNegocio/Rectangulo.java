@@ -52,7 +52,7 @@ public class Rectangulo extends Figura {
     @Override
     public String toString() {
         return "---- Rectangulo ----"
-                + "\nAncho: " + ancho+" u"
-                + "\nLargo: " + largo+" u";
+                + "\nAncho: " + ancho
+                + "\nLargo: " + largo;
     }
 }
