@@ -27,12 +27,12 @@ public class Circulo extends Figura{
 
     @Override
     public float area() {
-        return 3.1416f*radio*radio; //se pone f al final pq el area maneja double
+        return (float) (Math.PI*radio*radio); //se pone f al final pq el area maneja double
                                     //y 3,1416 es float
     }
 
     @Override
     public float perimetro() {
-        return 2*3.1416f*radio;
+        return (float) (2*Math.PI*radio);
     }
 }
