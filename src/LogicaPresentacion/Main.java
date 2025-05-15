@@ -9,8 +9,18 @@ public class Main {
     //calcular el área y el perímetro
     // de cualquier figura sin importar su tipo
     public static void calcularOperaciones(Figura figura) {
-        System.out.println("Area:" + figura.area());
-        System.out.println("Perimetro:" + figura.perimetro());
+        System.out.println(figura);
+        if (figura instanceof Circulo) {
+
+            String perimetro = String.format("%.2f", figura.perimetro());
+            String area = String.format("%.2f", figura.area());
+
+            System.out.println("Perimetro: " + perimetro + " u"
+                                + "\nArea: " + area + " u");
+        } else {
+            System.out.println("Area: " + figura.area() + " u");
+            System.out.println("Perimetro: " + figura.perimetro() + " u");
+        }
 
     }
 
@@ -19,11 +29,10 @@ public class Main {
         Figura rectangulo = new Rectangulo(5, 8);
         Figura circulo = new Circulo(5);
 
-        System.out.println("Cuadrado:");
         calcularOperaciones(cuadrado);
-        System.out.println("Rectangulo:");
+
         calcularOperaciones(rectangulo);
-        System.out.println("Circulo:");
+
         calcularOperaciones(circulo);
 
 

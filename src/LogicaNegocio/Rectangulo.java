@@ -53,8 +53,6 @@ public class Rectangulo extends Figura {
     public String toString() {
         return "---- Rectangulo ----"
                 + "\nAncho: " + ancho
-                + "\nLargo: " + largo
-                + "\nPerimetro: " + perimetro()
-                + "\nArea: " + area();
+                + "\nLargo: " + largo;
     }
 }
