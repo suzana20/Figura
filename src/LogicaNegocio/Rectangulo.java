@@ -48,4 +48,13 @@ public class Rectangulo extends Figura {
     public float perimetro() {
         return 2 * ancho + 2 * largo;
     }
+
+    @Override
+    public String toString() {
+        return "---- Rectangulo ----"
+                + "\nAncho: " + ancho
+                + "\nLargo: " + largo
+                + "\nPerimetro: " + perimetro()
+                + "\nArea: " + area();
+    }
 }
