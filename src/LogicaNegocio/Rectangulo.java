@@ -1,7 +1,9 @@
 package LogicaNegocio;
 
 public class Rectangulo extends Figura {
+
     //Atributos
+
     private int ancho;
     private int largo;
 
@@ -35,7 +37,7 @@ public class Rectangulo extends Figura {
         this.largo = largo;
     }
 
-//Metodos heredados
+    //Metodos heredados
 
     @Override
     public float area() {
@@ -44,6 +46,6 @@ public class Rectangulo extends Figura {
 
     @Override
     public float perimetro() {
-        return 2*ancho + 2*largo ;
+        return 2 * ancho + 2 * largo;
     }
 }

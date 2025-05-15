@@ -1,7 +1,8 @@
 package LogicaNegocio;
 
 public abstract class Figura {
-    //Metodos propio
+
+    //Metodos propios
 
     public abstract float area();
     public abstract float perimetro();

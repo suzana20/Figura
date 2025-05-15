@@ -1,7 +1,9 @@
 package LogicaNegocio;
 
-public class Circulo extends Figura{
+public class Circulo extends Figura {
+
     //Atributos
+
     private int radio;
 
     //Constructores
@@ -13,6 +15,7 @@ public class Circulo extends Figura{
     public Circulo() {
         this.radio = 0;
     }
+
     //Get y set
 
     public int getRadio() {
@@ -27,12 +30,11 @@ public class Circulo extends Figura{
 
     @Override
     public float area() {
-        return (float) (Math.PI*radio*radio); //se pone f al final pq el area maneja double
-                                    //y 3,1416 es float
+        return (float) (Math.PI * radio * radio);
     }
 
     @Override
     public float perimetro() {
-        return (float) (2*Math.PI*radio);
+        return (float) (2 * Math.PI * radio);
     }
 }

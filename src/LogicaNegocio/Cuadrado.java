@@ -1,7 +1,9 @@
 package LogicaNegocio;
 
 public class Cuadrado extends Figura {
+
     //Atributos
+
     private int lado;
 
     //Constructores
@@ -25,6 +27,7 @@ public class Cuadrado extends Figura {
     }
 
     //Metodos heredados
+
     @Override
     public float area() {
         return lado * lado;
@@ -32,9 +35,8 @@ public class Cuadrado extends Figura {
 
     @Override
     public float perimetro() {
-        return 4*lado;
+        return 4 * lado;
     }
-
 
 
 }
