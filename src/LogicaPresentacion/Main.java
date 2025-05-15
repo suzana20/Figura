@@ -15,7 +15,7 @@ public class Main {
     }
     public static void main(String[] args) {
         Figura cuadrado=new Cuadrado(5);
-        Figura rectangulo=new Rectangulo(5,5);
+        Figura rectangulo=new Rectangulo(5,8);
         Figura circulo=new Circulo(5);
 
     System.out.println("Cuadrado:");
