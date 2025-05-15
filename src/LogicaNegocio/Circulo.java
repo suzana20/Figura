@@ -37,4 +37,10 @@ public class Circulo extends Figura {
     public float perimetro() {
         return (float) (2 * Math.PI * radio);
     }
+
+    @Override
+    public String toString() {
+        return "---- Circulo ----"
+                + "\nRadio: " + radio+ " u";
+    }
 }
